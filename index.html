@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Pro</title>
+
+    <link rel="stylesheet" href="./rests.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="part1">
+                <a class="brand"><span class="c">N</span>ew Pro <span class="c">.</span></a>
+                <button class="btn btn-primary"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="part2">
+                <button class="btn btn-danger"><i class="fa fa-close"></i></button>
+                <ul class="nav-list">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div id="particles-js"></div>
+            <div class="carousel-item active">
+                <img src="./img/slide.jpg" alt="First slide">
+                <div class="overlay"></div>
+                <div class="slide-text">
+                    <h1><span class="c">Hurry Up</span></h1>
+                    <h2>Its Easy <br> Now</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <span class="c">50%</span><br>
+                        Minima, rem? Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Totam, obcaecati.
+                    </p>
+                    <div class="buttons-slide">
+                        <button class="bc">Book Now</button>
+                        <button class="btn btn-primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <img src="./img/slide1.jpg" alt="First slide">
+                    <div class="overlay"></div>
+                    <div class="slide-text">
+                            <h1><span class="c">Hurry Up</span></h1>
+                            <h2>Its Will Over <br> Soon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <span class="c">50%</span><br>
+                                Minima, rem? Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Totam, obcaecati.
+                            </p>
+                            <div class="buttons-slide">
+                                <button class="bc">Book Now</button>
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                    <img src="./img/slide2.jpg" alt="First slide">
+                    <div class="overlay"></div>
+                    <div class="slide-text">
+                            <h1><span class="c">50% Sale Off</span></h1>
+                            <h2>Best Promotion <br> For You</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <span class="c">50%</span><br>
+                                Minima , rem? Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Totam, obcaecati.
+                            </p>
+                            <div class="buttons-slide">
+                                <button class="bc">Book Now</button>
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                    </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- changer -->
+    <section class="changer">
+        <button id="cog" class="bc">
+            <i class="fa fa-cog"></i>
+        </button>
+        <div class="colors">
+            <h1>colors</h1>
+            <button id="red"><i class="fa fa-tint red"></i></button>
+            <button id="green"><i class="fa fa-tint green" ></i></button>
+            <button id="yellow"><i class="fa fa-tint yellow" ></i></button>
+            <button id="pink"><i class="fa fa-tint pink" ></i></button>
+            <button id="blue"><i class="fa fa-tint blue" ></i></button>
+            <button id="orange"><i class="fa fa-tint " style="color:orangered"></i></button>
+
+            <h1>font-family</h1>
+            <div class="form-group">
+                    <select class="form-control font-input">
+                      <option id="cursive">cursive</option>
+                      <option id="fantasy">fantasy</option>
+                      <option id="sans-serif">sans-serif</option>
+                      <option id="josefin-sans">josefin-sans</option>
+                      <option id="garamond">garamond</option>
+                      <option id="Georgia">Georgia</option>
+                      <option id="monospace">monospace</option>
+                    </select>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services -->
+
+    <section class="services">
+        <div class="container">
+            <h1 id="font">Our Services</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+                    <div class="c">
+                        <i class="fa fa-pied-piper-alt"></i>
+                    </div>
+                    <h5 id="font">Best For You</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Id voluptates rem ullam dolores.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="c">
+                        <i class="fa fa-newspaper-o"></i>
+                    </div>
+                    <h5 id="font">News</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Id voluptates rem ullam dolores.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="c">
+                        <i class="fa fa-language"></i>
+                    </div>
+                    <h5 id="font">Many Languages</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Id voluptates rem ullam dolores.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="c">
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <h5 id="font">Contact Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Id voluptates rem ullam dolores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- gallery -->
+
+    <section class="gallery">
+        <div class="container">
+            <h1 id="font">Gallery</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide1.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide2.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide3.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide4.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <img src="./img/slide5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact us -->
+
+    <section class="contact">
+        <div class="container">
+            <h1 id="font">Contact Us</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="c">
+                        <i class="fa fa-phone "></i>
+                    </div>
+                    <h5 id="font">Phone</h5>
+                    <h6>+2126 21420632</h6>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="c">
+                            <i class="fa fa-map-o "></i>
+                        </div>
+                        <h5 id="font">Adress</h5>
+                        <h6>Morocco / marrakech</h6>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="c">
+                            <i class="fa fa-envelope-square "></i>
+                        </div>
+                        <h5 id="font">Email</h5>
+                        <h6>aamhamdi943@gmail.com</h6>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <h6>Created With Love By Abdelhadi Amhamdi . <span class="c">2020</span></h6>
+    </footer>
+    
+</body>
+    <script src="./main.js"></script>
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/jq.js"></script>
+    <script src="./scripts/particles.js"></script>
+    <script src="./scripts/app.js"></script>
+</html>

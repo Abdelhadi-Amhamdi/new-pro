@@ -1,0 +1,312 @@
+/* nvbar */
+.navbar {
+  height: 70px;
+  position: fixed !important;
+  z-index: 44;
+  width: 100%;
+}
+
+.navbar .part1 {
+  font-size: 26pt;
+}
+
+.navbar .part1 button.btn.btn-primary {
+  display: none;
+}
+
+.navbar .part2 .btn-danger {
+  display: none;
+}
+
+.navbar .part2 ul.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* slide */
+.slide .carousel-control-next,
+.slide .carousel-control-prev {
+  z-index: 1;
+}
+
+.slide .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100vh;
+  opacity: 9;
+}
+
+.slide .carousel-inner .carousel-item .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 100vh;
+}
+
+.slide .carousel-inner .carousel-item .slide-text {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  color: white;
+}
+
+.slide .carousel-inner .carousel-item .slide-text p {
+  margin: 50px 0px;
+}
+
+.slide .carousel-inner .carousel-item .slide-text .btn-primary {
+  border-radius: 0px;
+}
+
+section.changer {
+  position: fixed;
+  border: 1px black solid;
+  background: white;
+  -webkit-box-shadow: black 1px 1px 14px;
+          box-shadow: black 1px 1px 14px;
+  z-index: 1;
+  top: 35%;
+  left: 0px;
+}
+
+section.changer button {
+  border: none;
+}
+
+section.changer .colors {
+  display: none;
+  background: white;
+  padding: 50px;
+}
+
+section.changer .colors button {
+  background: none;
+  border: none;
+}
+
+section.services {
+  margin: 100px 40px;
+  text-align: center;
+}
+
+section.services h1 {
+  font-size: 26pt;
+  text-transform: capitalize;
+  margin: 100px 0px;
+}
+
+section.services .col-lg-3.col-md-3.col-sm-3.col-xs-12 {
+  margin: 50px 0px;
+}
+
+section.services .col-lg-3.col-md-3.col-sm-3.col-xs-12 i.fa {
+  font-size: 36pt;
+  margin-bottom: 40px;
+}
+
+section.gallery h1 {
+  text-align: center;
+  margin: 100px 0px;
+}
+
+section.gallery .col-lg-3.col-md-6.col-sm-6.col-xs-12 {
+  margin: 10px 0px;
+}
+
+section.gallery .col-lg-3.col-md-6.col-sm-6.col-xs-12 img {
+  width: 100%;
+  height: 170px;
+  border: 5px solid gainsboro;
+  border-radius: 15px;
+}
+
+section.contact {
+  text-align: center;
+  margin: 100px 0px;
+}
+
+section.contact h1 {
+  font-size: 26pt;
+  margin-bottom: 70px;
+}
+
+section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+  margin: 70px 0px;
+}
+
+section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 i.fa {
+  font-size: 36pt;
+  margin: 20px;
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 h6 {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width: 503px) {
+  .navbar .part1 {
+    font-size: 26pt;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar .part1 button.btn.btn-primary {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 26pt;
+  }
+  .navbar .part2 {
+    display: none;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: auto;
+    width: 50%;
+    -webkit-transition: all 0.2s ease-in !important;
+    transition: all 0.2s ease-in !important;
+    -webkit-box-shadow: black 4px 4px 16px;
+            box-shadow: black 4px 4px 16px;
+  }
+  .navbar .part2 button.btn.btn-danger {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 26pt;
+  }
+  .navbar .part2 ul {
+    display: -ms-grid !important;
+    display: grid !important;
+    margin-top: 50px;
+    padding: 10px !important;
+  }
+  .navbar .part2 ul li.nav-item {
+    position: relative;
+    margin-top: 10px;
+  }
+  .navbar .part2 ul li.nav-item a {
+    background-color: #202020;
+    width: 100%;
+    height: 100%;
+    color: white !important;
+    font-size: 12pt;
+    text-align: center;
+    padding: 10px;
+  }
+  .slide .slide-text {
+    position: absolute;
+    top: 15% !important;
+    left: 0px !important;
+    margin: 40px;
+    text-align: center;
+    color: white;
+  }
+  .slide .slide-text p {
+    margin: 50px 0px;
+  }
+  .slide .slide-text .btn-primary {
+    border-radius: 0px;
+  }
+  .slide .carousel-control-next,
+  .slide .carousel-control-prev {
+    z-index: 1;
+  }
+  section.changer {
+    position: fixed;
+    border: 1px black solid;
+    background: white;
+    -webkit-box-shadow: black 1px 1px 14px;
+            box-shadow: black 1px 1px 14px;
+    z-index: 1;
+    top: 35%;
+    left: 0px;
+  }
+  section.changer button {
+    border: none;
+  }
+  section.changer .colors {
+    display: none;
+    background: white;
+    padding: 50px;
+  }
+  section.changer .colors button {
+    background: none;
+    border: none;
+  }
+  section.services {
+    margin: 100px 40px;
+    text-align: center;
+  }
+  section.services h1 {
+    font-size: 26pt;
+    text-transform: capitalize;
+    margin: 100px 0px;
+  }
+  section.services .col-lg-3.col-md-3.col-sm-3.col-xs-12 {
+    margin: 50px 0px;
+  }
+  section.services .col-lg-3.col-md-3.col-sm-3.col-xs-12 i.fa {
+    font-size: 36pt;
+    margin-bottom: 40px;
+    background: #f0eeee;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  section.gallery .col-lg-3.col-md-6.col-sm-6.col-xs-12 {
+    margin: 10px 0px;
+  }
+  section.gallery .col-lg-3.col-md-6.col-sm-6.col-xs-12 img {
+    width: 100%;
+    border: 5px solid gainsboro;
+    border-radius: 15px;
+  }
+  section.contact {
+    text-align: center;
+    margin: 100px 0px;
+  }
+  section.contact h1 {
+    font-size: 26pt;
+    margin-bottom: 70px;
+  }
+  section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+    margin: 70px 0px;
+  }
+  section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 i.fa {
+    font-size: 36pt;
+    margin: 20px;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  section.contact .col-lg-4.col-md-4.col-sm-4.col-xs-12 h6 {
+    margin-top: 20px;
+  }
+  footer {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

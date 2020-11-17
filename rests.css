@@ -1,0 +1,148 @@
+
+
+
+/* rests styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c {
+    color: orangered;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.red {
+    color: rgb(252, 53, 53);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.green {
+    color: rgb(43, 247, 43);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.yellow {
+    color: rgb(255, 255, 61);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.pink {
+    color : rgb(245, 150, 166);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.blue {
+    color: rgb(77, 77, 255);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.nav-col {
+    background-color: rgb(32, 32, 32);
+}
+.bc {
+    background-color: orangered;
+    padding: 8px;
+    border: none;
+    color: white;
+}
+.bred {
+    background-color: rgb(252, 53, 53);
+    padding: 8px;
+    border: none;
+    color: white;
+}
+.bgreen {
+    background-color: rgb(43, 247, 43);
+    padding: 8px;
+    border: none;
+    color: white;
+}
+.byellow {
+    background-color: rgb(255, 255, 61);
+    padding: 8px;
+    border: none;
+    color: black;
+}
+.bpink {
+    background-color : rgb(245, 150, 166);
+    padding: 8px;
+    border: none;
+    color: white;
+    
+}
+.bblue {
+    background-color: rgb(77, 77, 255);
+    padding: 8px;
+    border: none;
+    color: white;
+}
+a {
+    color: white!important;
+}
+
+#font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cursive {
+    font-family: cursive ;
+}
+#fantasy{
+    font-family: fantasy;
+    letter-spacing: 3px;
+}
+#sans-serif{
+    font-family: sans-serif;
+}
+#josefin-sans {
+    font-family: josefin-sans ;
+}
+#garamond {
+    font-family: garamond;
+    font-weight: bold;
+}
+#Georgia {
+    font-family: Georgia;
+}
+#monospace {
+    font-family: monospace;
+}
+
+.animate{
+    position: absolute;
+    background: #fff ;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1) translateY(-500%) ;
+    }
+}
+
+#particles-js{
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+
+
+
